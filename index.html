@@ -1,150 +1,180 @@
 <!DOCTYPE html>
-<html lang="PT-br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lava-Jato</title>
+    <title>Lava-Jato, SOS Car</title>
     <style>
-        hr{
-            border: 0;
-  height: 1px;
-  background: #ccc; 
-  margin: 20px 0;
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
         }
-       *{text-align: center;
-    } 
-    body{
-        height: 100%;
-        width: 100%;
-        background-color: black;
-        color: white;
-        margin: 5% 5% 0 0;
 
-    }
-    ul, ol{
-        list-style: none;
-    }
-    .img{
-        height:40%;
-        width:40% ;
-        border-radius: 15px;
-        margin: 0 12px 0 0;
+        header, footer {
+            margin: 20px;
+        }
 
-    }
-    h2{
-    display: flex;
-    justify-content: center;
-    border: 7px rgb(10, 110, 152);
-    width: 100%;
-    
-    background-color: white ;
-    color: black;
-    }
-    .liclass{
-        display: inline-block;
-        margin-right: 10%;
-        border: solid rgb(10, 160, 210) 5px;
-        background-color: white;
-        color: rgb(0, 0, 0);
-        height: 10%;
-        width: 10%;
-    }
-    .aa{
-    text-decoration: none;
-    color: inherit;
-    }
-    button{
-        width: 20%;
-    }
-    .liclasss{
-        display: flex;
-        justify-content: left;
-        margin: 3% 3% 0 0;
-        height: 3px;
-        font-size: 3%;
-    }
-    .whats{
-        height: 5%;
-        width: 5%;
-        margin: 0 0 0 12px;
-    }
-    li{
-        margin-top: 10%;
-    }
-    .peregrinoo{
-        display: flex;
-        justify-content: left;
-        margin: 0 12px 0 0;
-        height: 3px;
-        font-size: 3%;
-    }
-    .pclass{
-        margin-bottom: 0;
-        font-size: 30px;
-    }
-    .divh1eimg{
-    display: flex;
-    justify-content: right;
-    }
-    .rr{
-        display: flex;
-        justify-content: right;
-        padding: 10% 10% 12% 12%;
-    }
-    .buttt{
-     width: 20%;
+        header img {
+            height: 100px;
+            width: auto;
+        }
 
-    }
-    .imgh1{
-        height: 10%;
-        width: 10%;
-    }
+        .buttons {
+            margin: 20px 0;
+            display: flex;
+            justify-content: center; /* Centraliza os botões */
+        }
+
+        .buttons a {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .buttons a:hover {
+            background-color: #45a049;
+        }
+
+        .services {
+            margin: 20px 0;
+        }
+
+        .service {
+            margin-bottom: 40px;
+        }
+
+        .service img {
+            width: 40%;
+            height: auto;
+            border-radius: 15px;
+            margin: 20px 0;
+        }
+
+        .service h2 {
+            border: 2px solid rgb(10, 110, 152);
+            background-color: white;
+            color: black;
+            padding: 10px;
+            margin: 0;
+        }
+
+        .service ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+        }
+
+        .service li {
+            display: inline-block;
+            background-color: white;
+            color: black;
+            border: 2px solid rgb(10, 160, 210);
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #041121;
+            padding: 20px;
+            color: white;
+            text-align: left;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-content p {
+            font-size: 0.9em;
+            margin: 0;
+            flex: 1;
+        }
+
+        .footer-links {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            flex: 1;
+        }
+
+        .footer-links a {
+            margin: 10px 0; /* Aumenta o espaço entre os links */
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-logo {
+            flex: 1;
+            text-align: center;
+        }
+
+        .footer-logo img {
+            width: 30px; /* Diminuir o tamanho da imagem */
+            height: auto;
+        }
+
+        hr {
+            border: 1px solid #ccc;
+            margin: 40px 0;
+        }
     </style>
 </head>
 <body>
     <header>
-<title>Lava-Jato, SOS car</title>
-<br>
-
-<h1>Lava-Jato, SOS car</h1><br><img src="carro-lava-jato.png" alt="" class="imgh1">
-
-<div class="divh1eimg"><button><a href="https://wa.me/556692436872?text=Olá, gostaria de mais informações sobre o lava-jato!." target="_blank" class="aa">Clique aqui e fale conosco pelo WhatsApp</a></button>
-    <img src="logo-whatsapp-png-transparente10.webp" alt="" class="whats"></div><br>
-    <div class="rr"><button class="buttt"><a href="https://maps.app.goo.gl/YutguK8jMdaAZ7FQ6" target="_blank" class="aa">Clique aqui para ver nossa localização</a></button></div>
-    <p class="pclass">confira, abaixo, nossos serviços</p>
-</header>
-    <main>
-        <div>
+        <h1>Lava-Jato, SOS Car</h1>
+        <img src="carro-lava-jato.png" alt="Logo Lava-Jato">
+        <div class="buttons">
+            <a href="https://wa.me/556692436872?text=Olá, gostaria de mais informações sobre o lava-jato!" target="_blank">Clique aqui e fale conosco pelo WhatsApp</a>
+            <a href="https://maps.app.goo.gl/YutguK8jMdaAZ7FQ6" target="_blank">Clique aqui para ver nossa localização</a>
+        </div>
+        <p>Confira, abaixo, nossos serviços</p>
+    </header>
+    <main class="services">
+        <div class="service">
+            <h2>Lavagem Simples</h2>
+            <img src="OIP.jpg" alt="Imagem Lavagem Simples">
             <ul>
-                <li><h2>Lavagem simples</h2> <br><img src="OIP.jpg" alt="imagem" class="img"> 
-                    <br>
-                    <ul>
-                    <li class="liclass">carro <div>70R$</div></li>
-                    <li class="liclass">caminhoneta <div>100R$</div></li>
-                    <li class="liclass">moto <div>30R$</div></li>
-                </ul>
-                </li>
-                <hr>
-                <li><h2>lavagem completa</h2><br><img src="estacao-de-detalhamento-de-lavagem-de-carro_1303-22314.avif" alt="" class="img">
-                    <br>
-                    <ul>
-                        <li class="liclass">carro <div>100R$</div></li>
-                        <li class="liclass">caminhoneta <div>120R$</div></li>
-                        <li class="liclass">Caminhões Leves (3/4)<div>R$150</div></li>
-                    </ul>
-                </li>
+                <li>Carro <div>R$ 70</div></li>
+                <li>Caminhonete <div>R$ 100</div></li>
+                <li>Moto <div>R$ 30</div></li>
+            </ul>
+        </div>
+        <hr>
+        <div class="service">
+            <h2>Lavagem Completa</h2>
+            <img src="estacao-de-detalhamento-de-lavagem-de-carro_1303-22314.avif" alt="Imagem Lavagem Completa">
+            <ul>
+                <li>Carro <div>R$ 100</div></li>
+                <li>Caminhonete <div>R$ 120</div></li>
+                <li>Caminhões Leves (3/4) <div>R$ 150</div></li>
             </ul>
         </div>
     </main>
-    <hr>
     <footer>
-        <div>
-         <ul>
-        <li class="peregrinoo"><p>este site foi realizado pela empresa de tráfego págo de alta floresta-MT, peregrino</p></li>
-        <li class="liclasss"><a href="https://www.instagram.com/peregrino_fxp24?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">peregrino, trafego pago instagram</a></li>
-           <li class="liclasss"><a href="http://wa.me/qr/XK6ZZQ5ZVQS5B1">peregrino tráfego pago whatsapp</a></li><br>
-           <img src="_6d95a622-56c0-4d94-92c9-d607b13c8b84.jpg" alt="" style="width: 5%; height: 5%; display: flex; justify-content: left;">
-        </ul>
+        <div class="footer-content">
+            <p>Este site foi realizado pela empresa de tráfego pago de Alta Floresta-MT, Peregrino</p>
+            <div class="footer-links">
+                <a href="https://www.instagram.com/peregrino_fxp24?utm_source=ig_web_button_share_sheet&igshid=ZDNlZDc0MzIxNw==" target="_blank">Peregrino, tráfego pago Instagram</a>
+                <a href="http://wa.me/qr/XK6ZZQ5ZVQS5B1" target="_blank">Peregrino tráfego pago WhatsApp</a>
+            </div>
+            <div class="footer-logo">
+                <img src="_6d95a622-56c0-4d94-92c9-d607b13c8b84.jpg" alt="Logo Peregrino">
+            </div>
         </div>
     </footer>
 </body>
